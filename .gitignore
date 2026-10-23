@@ -72,6 +72,17 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# Internal working documents stay local; shared design/architecture docs remain eligible.
+/docs/internal/
+/docs/local/
+/docs/progress/
+/docs/audits/
+/docs/*优化*
+/docs/*进度*
+/docs/*审计*
+/docs/*排障*
+/docs/*运行记录*
+
 # PyBuilder
 .pybuilder/
 target/
@@ -218,3 +229,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── 密钥 / 认证 / 敏感信息（本项目红线：任何密钥/token/内网地址不入库）──
+.env
+.env.*
+*.env
+secrets/
+.secrets/
+secrets.*
+*.secret
+*.key
+*.pem
+*.p12
+*.p8
+*.pfx
+*.token
+.token
+credentials
+credentials.*
+.credentials
+*_credentials.*
+id_rsa
+id_ed25519
+*.crt
+# 本地模型权重 / 数据 / 音视频成品也不入库（体积 + 版权）
+*.gguf
+*.bin
+*.safetensors
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.mov
+audio_outputs/
+outputs/
+_runs/

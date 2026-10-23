@@ -1,0 +1,4 @@
+interface:
+  display_name: "歌曲 MV 分镜导演"
+  short_description: "以歌曲音频时间轴编写人物演唱、动作与镜头同步的多模态视频提示词"
+  default_prompt: "使用 $music-mv-storyboard，根据这段歌曲和角色参考图，编写可粘贴到视频平台的分镜提示词。"

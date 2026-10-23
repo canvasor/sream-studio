@@ -1,0 +1,22 @@
+{
+  "profile": "user-preference-v1",
+  "basis": "user_requested_defaults",
+  "values": {
+    "variety": "Off",
+    "style_influence": 80,
+    "max_mode": "On",
+    "weirdness": 45,
+    "duration": "Auto",
+    "personalize": "Off"
+  },
+  "exclude_policy": "通常2–4项裸元素，不加no；实际内容取本首Exclude.txt，不按项数自动删改。",
+  "official_slider_reference": "https://help.suno.com/en/articles/6141377",
+  "notes": {
+    "variety": "用户指定关闭。若界面只有数值滑杆，先确认最小值对应关闭；不能据此断言其他档位会使提示词完全失效。",
+    "style_influence": "用户指定80%，用于本轮风格贴合对照；不是80%的遵循概率，也不代表50%丢掉一半提示词。",
+    "max_mode": "用户指定开启；仅在当前账户和模型提供该控件时填写，不保证必然提升质量或延长生成。",
+    "weirdness": "用户指定45%；官方把50%描述为常规中点，不保证降低数值就更抓耳。",
+    "duration": "用户指定Auto，先让模型安排篇幅；仍需检查结尾，不能一概声称Custom必然硬切或赶词。",
+    "personalize": "用户指定关闭Personalize / My Taste，以减少个人偏好对本轮对照的影响。"
+  }
+}

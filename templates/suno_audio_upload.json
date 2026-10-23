@@ -1,0 +1,18 @@
+{
+  "version": "suno-audio-upload-v1",
+  "default_type": "Full Song",
+  "default_operation": "Cover",
+  "basis": "content_label_recommendation_pending_listening_review",
+  "descriptions": {
+    "Full Song": "A complete song recording with lead vocals and instrumental accompaniment.",
+    "Song Demo": "A song demo excerpt presenting a musical idea. This is a partial draft rather than a finished full song.",
+    "Voice": "An isolated singing vocal recording without intentional instrumental accompaniment. Separation artifacts may remain if extracted from a full mix.",
+    "Instrument Stem": "An isolated instrumental part from a recording.",
+    "Loop": "A short musical passage prepared for repeated looping.",
+    "Rhythm / Percussion": "A rhythm or percussion recording.",
+    "Sample": "A short audio sample.",
+    "Spoken Word": "A spoken voice recording.",
+    "Sound Effect": "A sound effect recording.",
+    "Field Recording / Ambience": "A field recording or ambient sound recording."
+  }
+}
